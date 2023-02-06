@@ -23,7 +23,7 @@ After creating your branch, you should see some output like:
 
         Switched to a new branch 'silly'
 
-Now make an edit to this file and run git status.
+Now open up `names.txt` and add your name to the bottom.
 
 You should see something like this:
 
@@ -31,11 +31,11 @@ You should see something like this:
         Changes not staged for commit:
           (use "git add <file>..." to update what will be committed)
           (use "git restore <file>..." to discard changes in working directory)
-        	modified:   part-1.txt
+        	modified:   names.txt
 
         no changes added to commit (use "git add" and/or "git commit -a")
 
-It says we've changed part-1.txt. You now need to add the change to your
+It says we've changed `names.txt`. You now need to add the change to your
 staging area and commit it.
 
 The staging area is the set of changes which will be part of the next commit.
