@@ -53,8 +53,8 @@ Merging changes from another branch
 Now we're going to try and bring in changes from the branch `silly` into our
 own branch.
 
-Run `git pull origin silly` to try to pull in changes. Usually, this will just
-work, but sometimes there are issues.
+Run `git merge silly` to try to merge the changes from silly into our branch.
+Usually, this will just work, but sometimes there are issues.
 
 In this case, you should get a merge conflict. This is just me going over and
 hopefully explaining better how merge conflicts work (This is easiest in
